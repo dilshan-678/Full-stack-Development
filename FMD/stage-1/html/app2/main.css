@@ -74,9 +74,38 @@
 .left-slider{
     display: flex;
     align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/woman-sunset-with-colorful-shopping-bags-city-street-park-after-shopping-day-happy_343596-7035.jpg?t=st=1724758978~exp=1724762578~hmac=ad2885e8c40da9c743ccd6d06a4813cf899222f5eb90f80cae4b54d6308eafc4&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .left-side-content{
     border: 1px solid rgb(253, 6, 6);
     padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.left-side-content > h1{
+    font-size: 55px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.left-side-content > h4{
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 62, 80,0.4);
+    position: absolute;
 }
