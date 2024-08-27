@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     background-color: #2ecc71;
-
+    margin-bottom: 40px;
 }
 
 .header-content{
@@ -60,13 +60,11 @@
 
 .slider-container{
     height: 800px;
-    border: 1px solid rgb(253, 6, 6);
     display: flex;
 }
 
 .slider-inner{
     flex: 1;
-    border: 1px solid rgb(253, 6, 6);
     
 
 }
@@ -109,7 +107,7 @@
     position: absolute;
 }
 
-.left-side-content > button{
+.order-now{
     background-color: rgba(44, 62, 80,0.4);
     margin-top: 50px;
     border: 1px solid white;
@@ -118,8 +116,48 @@
     cursor: pointer;
 }
 
-.left-side-content > button:hover{
+.order-now:hover{
 
     background-color: white;
     color: black;
+}
+
+.right-slider{
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-right-wapper{
+    flex: 1;
+    display: flex;
+}
+
+
+.slider-right-slot{
+    flex: 1;
+    background-image: url("https://img.freepik.com/free-photo/smiling-young-pretty-girl-standing-profile-view-holding-shopping-bags-shoulder-looking-isolated-olive-green-wall-with-copy-space_141793-112922.jpg?t=st=1724760971~exp=1724764571~hmac=5ad53914d54f0d776422fd5225440f61065f4b25c8c695b5660393cbd2e3ce0d&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-wapper{
+    width: 90%;
+    height: 90%;
+    background-color: rgba(44, 62, 80,0.8);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 2;
+    display: none;
+
+}
+
+.slider-right-slot:hover .data-wapper{
+    display: flex!important;
 }
