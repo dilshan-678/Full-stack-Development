@@ -57,3 +57,26 @@
     cursor: pointer;
     color: #d35400;
 }
+
+.slider-container{
+    height: 800px;
+    border: 1px solid rgb(253, 6, 6);
+    display: flex;
+}
+
+.slider-inner{
+    flex: 1;
+    border: 1px solid rgb(253, 6, 6);
+    
+
+}
+
+.left-slider{
+    display: flex;
+    align-items: center;
+}
+
+.left-side-content{
+    border: 1px solid rgb(253, 6, 6);
+    padding: 20px;
+}
