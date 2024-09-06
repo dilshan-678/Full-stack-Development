@@ -303,9 +303,23 @@
 
 
 .up-right{
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/explore-image-01.jpg);
 }
 .down-left{
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/explore-image-02.jpg");
 }
 /* Social Outer */
