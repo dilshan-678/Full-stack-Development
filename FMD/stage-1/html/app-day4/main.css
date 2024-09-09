@@ -1,0 +1,17 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+    transition: transform 1s;
+}
+
+.box:hover{
+    /* transform: translateX(150px); */
+    /* transform: translateX(-150px); */
+    /* transform: translateY(150px);
+    transform: translateX(200px); */
+
+    /* ho,ve */
+
+    transform: translate(0,25px);
+}
