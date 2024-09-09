@@ -124,6 +124,7 @@ img{
     background-color: cadetblue;
     animation-name: change;
     animation-duration: 5s;
+    animation-timing-function: linear;
 }
 
 @keyframes change{
