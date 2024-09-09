@@ -34,14 +34,27 @@ img:hover{
 }
 
 .box2{
+    margin-top: 20px;
     width: 250px;
     height: 80px;
     background-color: cadetblue;
-    margin: 150px 150px;
-    transition: all 1s;
+    /* margin: 150px 150px;
+    transition: all 1s; */
+    position: absolute;
+    animation-name: move;
+    animation-duration: 6s;
 }
 
-.box2:hover{
+/* .box2:hover{
     transform: skew(20deg,20deg);
     background-color: brown;
+} */
+
+@keyframes move{
+    from{
+        left: 0;
+    }
+    to{
+        left: 500px;
+    }
 }
