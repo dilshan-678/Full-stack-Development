@@ -3,6 +3,8 @@
     height: 400px;
     background-color: cadetblue;
     transition: transform 1s;
+    margin-top: 200px;
+    margin-left: 200px;
 }
 
 .box:hover{
@@ -13,5 +15,6 @@
 
     /* ho,ve */
 
-    transform: translate(0,25px);
+    /* transform: translate(0,25px); */
+    /* transform: rotate(360deg); */
 }
